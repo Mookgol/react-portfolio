@@ -1,0 +1,17 @@
+
+
+.container {
+    display: flex; /* Use flexbox layout */
+}
+
+.left-div, .right-div {
+    flex: 50px; /* Make both divs grow to fill available space */
+}
+
+.left-div {
+    background-color: lightblue; /* Example background color */
+}
+
+.right-div {
+    background-color: lightgreen; /* Example background color */
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 
-function About() {
+function Contact() {
     return (
         <div>
             {/* About component content */}
@@ -8,4 +8,4 @@ function About() {
     );
 }
 
-export default About;
+export default Contact;

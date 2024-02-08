@@ -1,12 +1,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { animateScroll as scroll } from 'react-scroll';
-import About from './components/about/About';
-import Project from './components/projects/Projects';
-import Experience from './components/experience/Experience';
-import Contact from './components/contact/Contact';
+import About from './components/About';
+import Project from './components/Projects';
+import Experience from './components/Experience';
+import Contact from './components/Contact';
 import './App.css'; // Import your CSS file
-import logo from './components/logo.png'; // Import your logo image
+import logo from './components/logo.png';
+import Home from "./components/Home"; // Import your logo image
 
 function App() {
   const scrollToTop = () => {
@@ -44,7 +45,7 @@ function App() {
             <Route path="/project" element={<Project />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/" element={<div>Home</div>} />
+            <Route path="/" element={<Home />} />
           </Routes>
         </div>
       </Router>

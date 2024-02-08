@@ -36,40 +36,4 @@
     transform: rotate(360deg);
   }
 }
-.navbar {
-  background-color: #333;
-  padding: 10px 20px;
-  display: flex;
-  justify-content: space-between; /* Align logo to left and menu items to right */
-}
 
-.navbar-left {
-  display: flex;
-  align-items: center;
-}
-
-.logo {
-  width: 50px; /* Adjust width as needed */
-  height: auto; /* Maintain aspect ratio */
-}
-
-.navbar-nav {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-}
-
-.nav-item {
-  margin-left: 20px; /* Adjust spacing between menu items */
-}
-
-.nav-link {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-.nav-link:hover {
-  text-decoration: underline;
-}
