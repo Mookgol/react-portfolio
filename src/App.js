@@ -1,11 +1,7 @@
 import './App.css';
-
+import Navbar from "./Components /Navbar";
 function App() {
-  return (
-    <div className="App">
-      Mookgo
-    </div>
-  );
+  return <Navbar />
 }
 
 export default App;
