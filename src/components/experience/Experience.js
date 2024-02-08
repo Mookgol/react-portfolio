@@ -1,3 +1,11 @@
-export default function experience() {
-    return <h1>Experience</h1>
+import React from 'react';
+
+function Experience() {
+    return (
+        <div>
+            {/* About component content */}
+        </div>
+    );
 }
+
+export default Experience;

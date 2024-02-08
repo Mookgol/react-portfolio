@@ -1,3 +1,11 @@
-export default function projects(){
-    return <h1>Project</h1>
+import React from 'react';
+
+function Projects() {
+    return (
+        <div>
+            {/* About component content */}
+        </div>
+    );
 }
+
+export default Projects;

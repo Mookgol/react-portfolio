@@ -1,43 +1,53 @@
-import './App.css';
-import Navbar from "./components/Navbar";
-import About from "./components/about/About";
-import Home from "./components/home/Home";
-import Project from "./components/projects/./Projects";
-import Experience from "./components/experience/Experience";
-import Contact from "./components/contact/Contact";
-import Footer from "./components/footer/Footer";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { animateScroll as scroll } from 'react-scroll';
+import About from './components/about/About';
+import Project from './components/projects/Projects';
+import Experience from './components/experience/Experience';
+import Contact from './components/contact/Contact';
+import './App.css'; // Import your CSS file
+import logo from './components/logo.png'; // Import your logo image
 
 function App() {
-  let component;
-  switch (window.location.pathname) {
-    case "/Home":
-      component = <Home />;
-      break;
-    case "/About":
-      component = <About />;
-      break;
-    case "/Projects":
-      component = <Project />;
-      break;
-    case "/Experience":
-      component = <Experience />;
-      break;
-    case "/Contact":
-      component = <Contact />;
-      break;
-    case "/Footer":
-      component = <Footer />;
-      break;
-    default:
-      component = <Home />;
-  }
+  const scrollToTop = () => {
+    scroll.scrollToTop();
+  };
 
   return (
-      <>
-        <Navbar />
-        <div className="container">{component}</div>
+      <Router>
+        <div>
+          <nav className="navbar">
+            <div className="navbar-left">
+              <img src={logo} alt="Logo" className="logo" />
+            </div>
+            <ul className="navbar-nav">
+              <li className="nav-item">
+                <Link to="/" className="nav-link" onClick={scrollToTop}>Home</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/about" className="nav-link" onClick={scrollToTop}>About</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/project" className="nav-link" onClick={scrollToTop}>Project</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/experience" className="nav-link" onClick={scrollToTop}>Experience</Link>
+              </li>
+              <li className="nav-item">
+                <Link to="/contact" className="nav-link" onClick={scrollToTop}>Contact</Link>
+              </li>
+            </ul>
+          </nav>
 
-      </>
+          <Routes>
+            <Route path="/about" element={<About />} />
+            <Route path="/project" element={<Project />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/" element={<div>Home</div>} />
+          </Routes>
+        </div>
+      </Router>
   );
 }
 
