@@ -1,17 +1,18 @@
 
 
-.container {
-    display: flex; /* Use flexbox layout */
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.left-div, .right-div {
-    flex: 50px; /* Make both divs grow to fill available space */
+body{
+    background-color: #fdf3ea;
 }
 
-.left-div {
-    background-color: lightblue; /* Example background color */
+.hero-image {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+   margin-left: 1000px;
 }
 
-.right-div {
-    background-color: lightgreen; /* Example background color */
-}

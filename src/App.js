@@ -14,6 +14,7 @@ function App() {
     scroll.scrollToTop();
   };
 
+
   return (
       <Router>
         <div>
@@ -21,6 +22,10 @@ function App() {
             <div className="navbar-left">
               <img src={logo} alt="Logo" className="logo" />
             </div>
+            <input type="checkbox" id="navbar-toggle" className="navbar-toggle" />
+            <label htmlFor="navbar-toggle" className="navbar-toggle-label">
+              <span></span>
+            </label>
             <ul className="navbar-nav">
               <li className="nav-item">
                 <Link to="/" className="nav-link" onClick={scrollToTop}>Home</Link>
@@ -39,7 +44,6 @@ function App() {
               </li>
             </ul>
           </nav>
-
           <Routes>
             <Route path="/about" element={<About />} />
             <Route path="/project" element={<Project />} />
