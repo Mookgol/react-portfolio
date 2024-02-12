@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@300');
 
 .navbar {
-    background-color: white;
+    background-color: #fdf3ea;
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center/* Align logo to left and menu items to right */
+    align-items: center
 }
 
 .navbar-left {
@@ -14,8 +14,8 @@
 }
 
 .logo {
-    width: 50px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 50px;
+    height: auto;
 }
 
 .navbar-nav {
@@ -34,7 +34,7 @@
     text-decoration: none;
     font-size: 18px;
     font-family: Jaldi, sans-serif;
-    border: 4px solid #F2BE8E; /* Added solid border style */
+    border: 4px solid #F2BE8E;
     border-radius: 4px;
     background-color: #F2BE8E;
 }

@@ -22,9 +22,7 @@ function App() {
             <div className="navbar-left">
               <img src={logo} alt="Logo" className="logo" />
             </div>
-            <input type="checkbox" id="navbar-toggle" className="navbar-toggle" />
             <label htmlFor="navbar-toggle" className="navbar-toggle-label">
-              <span></span>
             </label>
             <ul className="navbar-nav">
               <li className="nav-item">
