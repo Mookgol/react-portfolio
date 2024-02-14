@@ -2,8 +2,8 @@ import React from 'react';
 
 function Projects() {
     return (
-        <div>
-            {/* About component content */}
+        <div id="projects">
+            <h1>Projects</h1>
         </div>
     );
 }

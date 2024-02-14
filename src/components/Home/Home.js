@@ -1,10 +1,10 @@
 import React from 'react';
 import './Home.css';
-import hero1 from '../components/Assets/hero1.png';
-import resumePdf from '../components/Assets/resume-example.pdf';
-import linkedinIcon from '../components/Assets/linkedin-icon.png';
-import behanceIcon from '../components/Assets/behance-icon.png';
-import githubIcon from '../components/Assets/github-icon.png';
+import hero1 from '../../Assets/hero1.png';
+import resumePdf from '../../Assets/resume-example.pdf';
+import linkedinIcon from '../../Assets/linkedin-icon.png';
+import behanceIcon from '../../Assets/behance-icon.png';
+import githubIcon from '../../Assets/github-icon.png';
 
 
 function Home() {
