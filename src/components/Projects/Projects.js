@@ -8,34 +8,32 @@ function Projects() {
   return (
     <section id="projects">
       <h1 className="title">Projects</h1>
-      <div className="experience-details-container">
-        <div className="about-containers">
+      <div className="project-container">
+        <div className="project-containers">
           <Project
             imgSrc={img}
             title="Portfolio"
-            githubLink="https://github.com/"
-            liveDemoLink="https://github.com/"
+            githubLink="https://github.com/Mookgol/My-New-Portfolio-html-css-and-Javasript"
+            liveDemoLink="https://mookgo-lebaka.netlify.app/"
           />
           <Project
             imgSrc={img2}
             title="Game"
-            githubLink="https://github.com/"
-            liveDemoLink="https://github.com/"
+            githubLink="https//github.com/Mookgol/Game"
+            liveDemoLink="https//github.com/Mookgol/Game"
           />
           <Project
             imgSrc={img3}
             title="kuyasaServices"
-            githubLink="https://github.com/"
-            liveDemoLink="https://github.com/"
+            githubLink="https://github.com/Mookgol/Kuyasa-Health-Services"
+            liveDemoLink="https://keen-tapioca-29c1f9.netlify.app/"
           />
         </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        className="icon arrow"
-        onClick={() => (window.location.href = "./#contact")}
-      />
+      {/*imgSrc={img4}*/}
+      {/*title="arrow" className="icon arrow" onClick=*/}
+      {/*{() => (window.location.href = "./#contact")}*/}
+      {/*/>*/}
     </section>
   );
 }
@@ -46,19 +44,19 @@ function Project({ imgSrc, alt, title, githubLink, liveDemoLink }) {
       <div className="article-container">
         <img src={imgSrc} alt={alt} className="project-img" />
       </div>
-      <h2 className="experience-sub-title project-title">{title}</h2>
+      <h2 className="project-title">{title}</h2>
       <div className="btn-container">
         <button
-          className="btn btn-color-2 project-btn"
+          className="project-btn"
           onClick={() => (window.location.href = githubLink)}
         >
           Github
         </button>
         <button
-          className="btn btn-color-2 project-btn"
+          className="project-btn"
           onClick={() => (window.location.href = liveDemoLink)}
         >
-          Live Demo
+          Live
         </button>
       </div>
     </div>
