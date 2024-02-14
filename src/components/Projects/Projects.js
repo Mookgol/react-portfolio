@@ -1,7 +1,8 @@
 import React from "react";
 import "./Project.css";
-import Project1 from "../../Assets/Project1.png";
-import Project2 from "../../Assets/Project2.png";
+import img2 from "../../Assets/Project2.png";
+import img from "../../Assets/Project1.png";
+import img3 from "../../Assets/project3.png";
 
 function Projects() {
   return (
@@ -10,23 +11,21 @@ function Projects() {
       <div className="experience-details-container">
         <div className="about-containers">
           <Project
-            imgSrc="./assets/project1.png"
-            alt="Project1"
+            imgSrc={img}
             title="Portfolio"
             githubLink="https://github.com/"
             liveDemoLink="https://github.com/"
           />
           <Project
-            imgSrc="./src/assets/project2.png"
-            alt="Project2"
+            imgSrc={img2}
+            title="Portfolio"
             title="Game"
             githubLink="https://github.com/"
             liveDemoLink="https://github.com/"
           />
           <Project
-            imgSrc="./assets/project-3.png"
-            alt="Project 3"
-            title="Calculator"
+            imgSrc={img3}
+            title="kuyasaServices"
             githubLink="https://github.com/"
             liveDemoLink="https://github.com/"
           />
