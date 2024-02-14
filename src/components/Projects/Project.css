@@ -1,0 +1,68 @@
+#projects {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.section__text__p1 {
+    font-size: 20px;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 30px;
+
+}
+
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about-containers {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.details-container {
+    background-color: #FBE7D4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    height: 500px;
+}
+
+.project-img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.experience-sub-title {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.btn-container {
+    margin-top: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-color-2 {
+    background-color: #F2BE8E;
+    color: #7B2933;
+}
+
+.icon.arrow {
+    margin-top: 30px;
+    cursor: pointer;
+}

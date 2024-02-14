@@ -1,11 +1,70 @@
-import React from 'react';
+import React from "react";
+import "./Project.css";
+import Project1 from "../../Assets/Project1.png";
+import Project2 from "../../Assets/Project2.png";
 
 function Projects() {
-    return (
-        <div id="projects">
-            <h1>Projects</h1>
+  return (
+    <section id="projects">
+      <h1 className="title">Projects</h1>
+      <div className="experience-details-container">
+        <div className="about-containers">
+          <Project
+            imgSrc="./assets/project1.png"
+            alt="Project1"
+            title="Portfolio"
+            githubLink="https://github.com/"
+            liveDemoLink="https://github.com/"
+          />
+          <Project
+            imgSrc="./src/assets/project2.png"
+            alt="Project2"
+            title="Game"
+            githubLink="https://github.com/"
+            liveDemoLink="https://github.com/"
+          />
+          <Project
+            imgSrc="./assets/project-3.png"
+            alt="Project 3"
+            title="Calculator"
+            githubLink="https://github.com/"
+            liveDemoLink="https://github.com/"
+          />
         </div>
-    );
+      </div>
+      <img
+        src="./assets/arrow.png"
+        alt="Arrow icon"
+        className="icon arrow"
+        onClick={() => (window.location.href = "./#contact")}
+      />
+    </section>
+  );
+}
+
+function Project({ imgSrc, alt, title, githubLink, liveDemoLink }) {
+  return (
+    <div className="details-container color-container">
+      <div className="article-container">
+        <img src={imgSrc} alt={alt} className="project-img" />
+      </div>
+      <h2 className="experience-sub-title project-title">{title}</h2>
+      <div className="btn-container">
+        <button
+          className="btn btn-color-2 project-btn"
+          onClick={() => (window.location.href = githubLink)}
+        >
+          Github
+        </button>
+        <button
+          className="btn btn-color-2 project-btn"
+          onClick={() => (window.location.href = liveDemoLink)}
+        >
+          Live Demo
+        </button>
+      </div>
+    </div>
+  );
 }
 
 export default Projects;
