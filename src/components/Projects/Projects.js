@@ -18,7 +18,6 @@ function Projects() {
           />
           <Project
             imgSrc={img2}
-            title="Portfolio"
             title="Game"
             githubLink="https://github.com/"
             liveDemoLink="https://github.com/"
