@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@300');
 
 .navbar {
-    background-color: #fdf3ea;
-    padding: 10px 20px;
+    padding: 5px 20px;
     display: flex;
     justify-content: space-between;
-    align-items: center
+    align-items: center;
+    position:fixed;
+    top:0;
+    width:100%;
 }
+
 
 .navbar-left {
     display: flex;
     align-items: center;
 }
 
-.logo {
-    width: 50px;
-    height: auto;
-}
 
 .navbar-nav {
     list-style: none;
     padding: 0;
     margin: 0;
+    height: 50px;
     display: flex;
 }
 

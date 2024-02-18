@@ -1,12 +1,125 @@
-#experience-image1{
-   width: 700px;
-   flex: 1;
-   background-color: #FBE7D4;
+.books {
+   margin: 0;
+}
+.experience-icon1 {
+   width: 100px;
+}
+.Education-icon1{
+   width: 50px;
+   padding-top: 13px;
+   padding-bottom: 12px;
+}
+
+.experienceHeader{
+   font-weight: bold;
+   font-size: x-large;
+   margin: 0;
+}
+
+.EducationHeader{
+   font-weight: bold;
+   font-size: x-large;
+   margin: 0;
+}
+
+#experience{
+   padding-top: 50px;
+   background-image: url("../../Assets/experience-image.png");
+   background-size: cover; /* This will cover the entire div */
+   background-position: center; /* Center the background image */
+   width: 100%; /* Adjust this width as per your requirement */
+   height: 800px; /* Adjust this height as per your requirement */
+}
+
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+}
+
+.container {
+   padding: 20px;
+   display: flex;
+   flex-wrap: wrap;
+
 
 }
 
-#background{
+.column {
    flex: 1;
-   background-color: #FBE7D4;
+   padding: 10px;
 }
+
+.left-column img {
+   display: block;
+   width: 100%;
+   height: auto;
+}
+.column.left-column{
+   max-width: 700px;
+}
+.right-column {
+   max-width: 500px;
+   margin-left: 50%;
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   gap: 20px;
+}
+
+.tile {
+   background-color: #FBE7D4;
+   position: relative;
+   border-radius: 20px;
+   width: 300px;
+   height: 314px;
+   border: solid #ec913f;
+   box-shadow: 7px 5px 5px #d36f15;
+
+}
+
+.tile p {
+   text-align: center;
+   padding: 0 10px 0 10px;
+
+}
+ul li{
+   text-align: center;
+}
+
+ul {
+   list-style: none;
+}
+
+.juniorsoftwareheader {
+   font-weight: bold;
+   font-size: medium;
+   margin: 3px;
+}
+.language {
+   font-weight: bold;
+   font-size: medium;
+   margin: 3px;
+}
+
+.devtools {
+   font-weight: bold;
+   font-size: medium;
+   margin: 3px;
+}
+
+ul.designtools li{
+   font-size: small;
+}
+
+@media (max-width: 768px) {
+   .container {
+      flex-direction: column;
+      align-items: center;
+   }
+
+   .column {
+      width: 100%;
+   }
+}
+
 

@@ -6,6 +6,7 @@ import Projects from "./components/Projects/Projects";
 import Experience from "./components/Experience/Experience";
 import Contact from "./components/Contact/Contact";
 import Home from "./components/Home/Home";
+import UpArrow from "./components/UpArrow/UpArrow";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Experience />
         <Projects />
         <Contact />
+        <UpArrow />
       </div>
     </Router>
   );

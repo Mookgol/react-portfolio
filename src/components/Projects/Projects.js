@@ -6,8 +6,8 @@ import img3 from "../../Assets/project3.png";
 
 function Projects() {
   return (
-    <section id="projects">
-      <h1 className="title">Projects</h1>
+    <div id="projects">
+      <h1 className="title"></h1>
       <div className="project-container">
         <div className="project-containers">
           <Project
@@ -30,11 +30,7 @@ function Projects() {
           />
         </div>
       </div>
-      {/*imgSrc={img4}*/}
-      {/*title="arrow" className="icon arrow" onClick=*/}
-      {/*{() => (window.location.href = "./#contact")}*/}
-      {/*/>*/}
-    </section>
+    </div>
   );
 }
 
