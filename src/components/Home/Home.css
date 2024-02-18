@@ -1,5 +1,14 @@
+.introtext {
+    color: #4b010b;
+}
 
+.section__text__p1 {
+    color: #4b010b;
+}
 
+.designtext {
+    color: #4b010b;
+}
 
 body{
     background-color: #fdf3ea;
@@ -77,7 +86,6 @@ body{
 .social-icons {
       margin: 0 5rem 0 5rem;
       padding-top: 1rem;
-
 
 }
 

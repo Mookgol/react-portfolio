@@ -21,13 +21,14 @@ function Home() {
         <div className="section__text">
           <h1 className="section__text__p1">Hello, I'm</h1>
           <h1 className="title">Mookgo Lebaka</h1>
-          <h1>
-            {" "}
+          <h1 className="introtext">
             A passionate Junior Software Developer and Digital Illustrator
             <br />
             based in Cape Town, South Africa.
           </h1>
-          <h4>I Design and code beautiful simple things.</h4>
+          <h4 className="designtext">
+            I Design and code beautiful simple things.
+          </h4>
           <button className="btn btn-color-2" onClick={handleDownloadCv}>
             Download CV
           </button>
