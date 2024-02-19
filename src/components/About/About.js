@@ -1,5 +1,4 @@
 import React from "react";
-import resumePdf from "../../Assets/resume-example.pdf";
 import "./About.css";
 import desktop from "../../Assets/desktop.png";
 

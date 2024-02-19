@@ -35,25 +35,31 @@ function Home() {
           <button className="btn btn-color-1" onClick={handleContactinfo}>
             Contact Info
           </button>
-          <div className="social-icons">
-            <img
-              src={linkedinIcon}
-              alt="LinkedIn"
-              width="40"
-              className="linkedin-icon"
-            />
-            <img
-              src={behanceIcon}
-              alt="BehanceIcon"
-              width="40"
-              className="behance-icon"
-            />
-            <img
-              src={githubIcon}
-              alt="githubIcon"
-              width="40"
-              className="github-icon"
-            />
+          <div className="social-icon">
+            <a href="https://www.linkedin.com/in/mookgo-lebaka-5377a0199/">
+              <img
+                src={linkedinIcon}
+                alt="LinkedIn"
+                width="40"
+                className="linkedin-icon1"
+              />
+            </a>
+            <a href="https://www.behance.net/mookgolebaka">
+              <img
+                src={behanceIcon}
+                alt="BehanceIcon"
+                width="40"
+                className="behance-icon2"
+              />
+            </a>
+            <a href="https://github.com/Mookgol">
+              <img
+                src={githubIcon}
+                alt="githubIcon"
+                width="40"
+                className="github-icon3"
+              />
+            </a>
           </div>
         </div>
         <div className="image__container">

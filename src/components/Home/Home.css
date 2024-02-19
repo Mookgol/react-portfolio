@@ -1,22 +1,17 @@
-.introtext {
-    color: #4b010b;
-}
-
-.section__text__p1 {
-    color: #4b010b;
-}
-
+.introtext,
+.section__text__p1,
 .designtext {
     color: #4b010b;
 }
 
-body{
+body {
     background-color: #fdf3ea;
 }
 
 #profile {
     padding: 50px;
 }
+
 
 .profile__container {
     display: flex;
@@ -49,6 +44,7 @@ body{
 }
 
 .btn-container {
+    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -64,28 +60,31 @@ body{
     height: 3rem;
 }
 
-.btn-color-1 {
-    background-color: #F2BE8E;
-    color: white;
-    box-shadow: 7px 5px 5px #d2823b;
-
-
-}
-
+.btn-color-1,
 .btn-color-2 {
     background-color: #F2BE8E;
     color: white;
     box-shadow: 7px 5px 5px #d2823b;
-
 }
 
 .btn:hover {
     opacity: 0.8;
 }
 
-.social-icons {
-      margin: 0 5rem 0 5rem;
-      padding-top: 1rem;
+.social-icon {
+    margin-left: 30px;
+    padding-top: 20px;
 
+}
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+    .profile__container {
+        padding: 20px;
+    }
+
+    .btn {
+        width: 100%;
+    }
 }
 

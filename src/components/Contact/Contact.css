@@ -63,11 +63,7 @@ input[type="submit"]:focus {
     padding-top: 40px;
 }
 
-/*.footercolour {*/
-/* background-color: #F2BE8E;*/
-/* height: 40px;*/
 
-/*}*/
 
 .logo {
  width: 100px;
@@ -82,13 +78,17 @@ input[type="submit"]:focus {
 
 }
 
-.social {
- width: 50px;
+.linkedin-icon {
+    margin-right: 1rem;
+    margin-left: 640px;
+}
+
+.behance-icon {
+    margin-right: 1rem;
 
 }
 
-.social-icons2{
- margin-left: 40%;
+.github-icon {
+    margin-right: 1rem;
 
 }
-

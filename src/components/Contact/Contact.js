@@ -7,6 +7,9 @@ import linkedin from "../../Assets/linkedin-icon.png";
 import behance from "../../Assets/behance-icon.png";
 import logo from "../../Assets/logo.png";
 import emailjs from "@emailjs/browser";
+import linkedinIcon from "../../Assets/linkedin-icon.png";
+import behanceIcon from "../../Assets/behance-icon.png";
+import githubIcon from "../../Assets/github-icon.png";
 
 function Contact() {
   const form = useRef();
@@ -47,11 +50,31 @@ function Contact() {
       <p className="slogan">
         Living, learning, & leveling up one day at a time.
       </p>
-      <div className="social-icons2">
-        <img src={email} className="social" alt={email} />
-        <img src={github} className="social" alt={github} />
-        <img src={linkedin} className="social" alt={linkedin} />
-        <img src={behance} className="social" alt={behance} />
+      <div className="icons">
+        <a href="https://www.linkedin.com/in/mookgo-lebaka-5377a0199/">
+          <img
+            src={linkedinIcon}
+            alt="LinkedIn"
+            width="40"
+            className="linkedin-icon"
+          />
+        </a>
+        <a href="https://www.behance.net/mookgolebaka">
+          <img
+            src={behanceIcon}
+            alt="BehanceIcon"
+            width="40"
+            className="behance-icon"
+          />
+        </a>
+        <a href="https://github.com/Mookgol">
+          <img
+            src={githubIcon}
+            alt="githubIcon"
+            width="40"
+            className="github-icon"
+          />
+        </a>
       </div>
       <p className="slogan">
         Copyright @ 2024 Mookgo Lebaka. All Rights Reserved.
