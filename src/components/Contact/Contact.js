@@ -1,10 +1,10 @@
 import React, { useRef } from "react";
 import "./Contact.css";
-import img from "../../Assets/Project1.png";
-import email from "../../Assets/email-icon.ping.png";
-import github from "../../Assets/github-icon.png";
-import linkedin from "../../Assets/linkedin-icon.png";
-import behance from "../../Assets/behance-icon.png";
+// import img from "../../Assets/Project1.png";
+// import email from "../../Assets/email-icon.ping.png";
+// import github from "../../Assets/github-icon.png";
+// import linkedin from "../../Assets/linkedin-icon.png";
+// import behance from "../../Assets/behance-icon.png";
 import logo from "../../Assets/logo.png";
 import emailjs from "@emailjs/browser";
 import linkedinIcon from "../../Assets/linkedin-icon.png";
@@ -51,7 +51,11 @@ function Contact() {
         Living, learning, & leveling up one day at a time.
       </p>
       <div className="icons">
-        <a href="https://www.linkedin.com/in/mookgo-lebaka-5377a0199/">
+        <a
+          href="https://www.linkedin.com/in/mookgo-lebaka-5377a0199/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src={linkedinIcon}
             alt="LinkedIn"
@@ -59,7 +63,11 @@ function Contact() {
             className="linkedin-icon"
           />
         </a>
-        <a href="https://www.behance.net/mookgolebaka">
+        <a
+          href="https://www.behance.net/mookgolebaka"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             src={behanceIcon}
             alt="BehanceIcon"
@@ -67,7 +75,7 @@ function Contact() {
             className="behance-icon"
           />
         </a>
-        <a href="https://github.com/Mookgol">
+        <a href="https://github.com/Mookgol" target="_blank" rel="noreferrer">
           <img
             src={githubIcon}
             alt="githubIcon"

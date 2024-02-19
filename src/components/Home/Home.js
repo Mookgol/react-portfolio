@@ -36,7 +36,11 @@ function Home() {
             Contact Info
           </button>
           <div className="social-icon">
-            <a href="https://www.linkedin.com/in/mookgo-lebaka-5377a0199/">
+            <a
+              href="https://www.linkedin.com/in/mookgo-lebaka-5377a0199/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={linkedinIcon}
                 alt="LinkedIn"
@@ -44,7 +48,11 @@ function Home() {
                 className="linkedin-icon1"
               />
             </a>
-            <a href="https://www.behance.net/mookgolebaka">
+            <a
+              href="https://www.behance.net/mookgolebaka"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={behanceIcon}
                 alt="BehanceIcon"
@@ -52,7 +60,11 @@ function Home() {
                 className="behance-icon2"
               />
             </a>
-            <a href="https://github.com/Mookgol">
+            <a
+              href="https://github.com/Mookgol"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 src={githubIcon}
                 alt="githubIcon"

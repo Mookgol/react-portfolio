@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./UpArrow.css";
+
 function UpArrow() {
   useEffect(() => {
     // Get the button
@@ -27,12 +28,15 @@ function UpArrow() {
     };
   }, []); // Empty dependency array ensures that this effect runs only once after component mounts
 
-  // Function to scroll to the top of the document
+  // Function to scroll to the top of the document smoothly
   function topFunction() {
-    document.body.scrollTop = 0; // For Safari
-    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
   }
 
   return <div id="myBtn" onClick={topFunction}></div>;
 }
+
 export default UpArrow;

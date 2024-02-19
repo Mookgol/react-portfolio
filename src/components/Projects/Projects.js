@@ -7,7 +7,6 @@ import img3 from "../../Assets/project3.png";
 function Projects() {
   return (
     <div id="projects">
-      <h1 className="title"></h1>
       <div className="project-container">
         <div className="project-containers">
           <Project
@@ -19,8 +18,8 @@ function Projects() {
           <Project
             imgSrc={img2}
             title="Game"
-            githubLink="https//github.com/Mookgol/Game"
-            liveDemoLink="https//github.com/Mookgol/Game"
+            githubLink="https://github.com/Mookgol/Game"
+            liveDemoLink="https://github.com/Mookgol/Game"
           />
           <Project
             imgSrc={img3}
@@ -44,13 +43,13 @@ function Project({ imgSrc, alt, title, githubLink, liveDemoLink }) {
       <div className="btn-container">
         <button
           className="project-btn"
-          onClick={() => (window.location.href = githubLink)}
+          onClick={() => window.open(githubLink, "_blank")}
         >
           Github
         </button>
         <button
           className="project-btn"
-          onClick={() => (window.location.href = liveDemoLink)}
+          onClick={() => window.open(liveDemoLink, "_blank")}
         >
           Live
         </button>
