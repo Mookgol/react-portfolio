@@ -1,11 +1,23 @@
 .Contactform {
-    background-color: #fad1ad;
-    margin-left: 30%;
+    margin-top: 80px;
+    margin-left: 33%;
     margin-right: 30%;
     padding: 30px;
     margin-bottom: 50px;
-    border-radius: 20px;
-    box-shadow: 7px 5px 5px #d2823b;
+    outline: none;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+    width: 450px;
+    height: 520px;
+    border-radius: 16px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EDDCD9;
+    border: 2px solid #264143;
+
 
 
 }
@@ -22,25 +34,43 @@ label {
 
 }
 
-input[type="text"],
 input[type="email"],
+input[type="text"],
 textarea {
-    width: 100%;
+    width: 320px;
+    height: 70px;
     padding: 8px;
     margin-bottom: 10px;
     border: #fde2c9;
-    border-radius: 4px;
-    box-sizing: border-box;
+    border-radius: 20px;
+    box-shadow: 3px 4px 1px 1px #E99F4C;
+
+}
+
+
+input[type="message"],
+textarea  {
+    width: 360px;
+    height: 120px;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: #fde2c9;
+    border-radius: 20px;
+    box-shadow: 3px 4px 1px 1px #E99F4C;
+
 }
 
 input[type="submit"] {
     background-color: #d36f15;
     color: #fdfdfd;
-    padding: 10px 20px;
+    padding: 10px 40px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     font-weight: bold;
+    box-shadow: 3px 4px 2px 1px #E99F4C;
+    margin-top: 10px;
+
 
 }
 
@@ -70,12 +100,20 @@ input[type="submit"]:focus {
 }
 
 .slogan{
-    font-size: x-large;
-    color: #7B2933;
+    font-size: medium;
+    color: #070102;
     text-align: center;
     font-weight: bold;
     font-style: italic;
 
+}
+
+.Copyright{
+    font-size: small;
+    color: #070102;
+    text-align: center;
+    font-style: italic;
+    margin-top: 80px;
 }
 
 .linkedin-icon {

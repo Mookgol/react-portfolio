@@ -84,7 +84,7 @@ function Contact() {
           />
         </a>
       </div>
-      <p className="slogan">
+      <p className="Copyright">
         Copyright @ 2024 Mookgo Lebaka. All Rights Reserved.
       </p>
       <div className="footercolour"></div>
