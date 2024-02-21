@@ -23,7 +23,7 @@ function Projects() {
           />
           <Project
             imgSrc={img3}
-            title="kuyasaServices"
+            title="kuyasa Services"
             githubLink="https://github.com/Mookgol/Kuyasa-Health-Services"
             liveDemoLink="https://keen-tapioca-29c1f9.netlify.app/"
           />

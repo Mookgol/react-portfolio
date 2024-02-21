@@ -17,9 +17,9 @@
     margin-top: 80px;
     outline: none;
     border: 2px solid #264143;
-    box-shadow: 3px 4px 0px 1px #E99F4C;
+    box-shadow: 3px 4px 0 1px #E99F4C;
     width: 450px;
-    height: 520px;
+    height: 550px;
     border-radius: 16px;
     font-size: 15px;
     display: flex;
@@ -27,6 +27,7 @@
     justify-content: center;
     align-items: center;
     background-color: #EDDCD9;
+    font-family: Jaldi, sans-serif;
 }
 
 /* form style */
@@ -59,6 +60,7 @@ textarea {
     border: #fde2c9;
     border-radius: 20px;
     box-shadow: 3px 4px 1px 1px #E99F4C;
+    color: #b34237;
 
 }
 
@@ -72,6 +74,7 @@ textarea  {
     border: #fde2c9;
     border-radius: 20px;
     box-shadow: 3px 4px 1px 1px #E99F4C;
+    color: #b34237;
 
 }
 
@@ -85,6 +88,7 @@ input[type="submit"] {
     font-weight: bold;
     box-shadow: 3px 4px 2px 1px #E99F4C;
     margin-top: 10px;
+
 
 
 }

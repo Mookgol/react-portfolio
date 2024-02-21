@@ -59,18 +59,18 @@
    max-width: 700px;
 }
 .right-column {
-   max-width: 500px;
-   margin-left: 50%;
+   max-width: 510px;
+   margin-left: 48%;
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   gap: 20px;
+   gap: 25px;
 }
 
 .tile {
    background-color: #FBE7D4;
    position: relative;
    border-radius: 20px;
-   width: 300px;
+   width: 290px;
    height: 314px;
    border: solid #ec913f;
    box-shadow: 7px 5px 5px #d36f15;

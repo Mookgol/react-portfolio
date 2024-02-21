@@ -20,8 +20,8 @@ function About() {
             </h4>
             <p id="about-paragraph">
               As a Junior Software Developer and Digital illustrator, I possess
-              an impressive arsenal of skills in HTML, CSS, JavaScript and React
-              js. <br />I excel in designing and maintaining responsive websites
+              an impressive arsenal of skills in React, JavaScript, Css and Html
+              <br />I excel in designing and maintaining responsive websites
               that offer a smooth user experience. <br />I am also a team player
               who thrives in collaborating with cross-functional teams to
               produce outstanding web applications.

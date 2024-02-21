@@ -1,26 +1,28 @@
 .footer{
-    background-color: #ECB992;
+    background-color: #fadfcc;
     padding: 10px;
 }
 .logo-footer {
-    width: 100px;
+    width: 120px;
 }
 
 .slogan{
-    font-size: medium;
-    color: #070102;
+    font-size: small;
+    color: #b34237;
     text-align: center;
     font-weight: bold;
     font-style: italic;
+    font-family: Jaldi, sans-serif;
 
 }
 
 .Copyright{
     font-size: small;
-    color: #070102;
+    color: #090909;
     text-align: center;
     font-style: italic;
     /*margin-top: 80px;*/
+    font-family: Jaldi, sans-serif;
 }
 
 .linkedin-icon {

@@ -19,7 +19,7 @@ function Home() {
     <section id="profile">
       <div className="profile__container">
         <div className="section__text">
-          <h1 className="section__text__p1">Hello, I'm</h1>
+          <h1 className="section__text__p1">Hello, I am</h1>
           <h1 className="title">Mookgo Lebaka</h1>
           <h1 className="introtext">
             A passionate Junior Software Developer and Digital Illustrator
