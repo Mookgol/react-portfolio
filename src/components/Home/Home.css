@@ -1,8 +1,11 @@
-.introtext,
-.section__text__p1,
-.designtext {
-    color: #4b010b;
-}
+
+/*.section__text__p1 {*/
+/*    color: #442102;*/
+/*}*/
+/*.designtext h4 {*/
+/*    color: #4b010b;*/
+/*    font-weight: lighter;*/
+/*}*/
 
 body {
     background-color: #fdf3ea;
@@ -27,8 +30,9 @@ body {
 }
 
 .title {
-   color: #F2BE8E;
+   color: #f3b881;
     font-size: xx-large;
+    text-shadow: 2px 2px 4px rgb(70, 1, 17);
 }
 
 .image__container {
@@ -62,9 +66,10 @@ body {
 
 .btn-color-1,
 .btn-color-2 {
-    background-color: #F2BE8E;
-    color: white;
-    box-shadow: 7px 5px 5px #d2823b;
+    background-color: #f3b881;
+    color: #4b010b;
+    box-shadow: 7px 5px 5px #e07c24;
+    font-weight: bold;
 }
 
 .btn:hover {
@@ -75,5 +80,26 @@ body {
     margin-left: 30px;
     padding-top: 20px;
 
+}
+
+/* Media queries for responsiveness */
+/* For screens up to 768px width */
+@media only screen and (max-width: 768px) {
+    .profile__container {
+        flex-direction: column;
+    }
+    .section__text {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .image__container {
+        margin-top: 20px;
+    }
+}
+/* For screens between 768px and 1024px width */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .hero-image {
+        max-height: 400px;
+    }
 }
 

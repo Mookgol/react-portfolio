@@ -8,16 +8,36 @@
     background-color: #FBE7D4;
     height: 50px;
 
+}
 
+.image-section{
+   display: flex;
+    margin-top: -307px;
+    align-items: center;
+    align-content: center;
+    padding-left: 240px;
 
 }
+
+.mookgo {
+    width: 220px;
+    margin: 40px;
+}
+
+.about-text{
+    color: #e36f07;
+    width: 700px;
+
+}
+
+#about-paragraph{
+    color: #340108;
+    font-family: Jaldi, sans-serif;
+    font-weight: bold;
+}
+
 #about-inner-section {
-    text-align: center;
-    padding-right: 17%;
-    padding-left: 17%;
     transform: translateY(-300px);
-
-
 
 }
 
@@ -29,12 +49,35 @@
 
 }
 
-.desktop {
-    width: 900px;
+#about-paragraph {
+    width: 500px;
 
 }
 
-#about-paragraph {
-    width: 900px;
+.desktop {
+    width: 750px;
+    align-content: center;
+    align-items: center;
+    margin-left:300px;
 
+
+}
+
+
+
+/* For screens up to 768px width */
+@media only screen and (max-width: 768px) {
+    #about-inner-section {
+        padding-right: 10px;
+        padding-left: 10px;
+        transform: none; /* Reset transformation */
+    }
+
+    .desktop, #about-paragraph {
+        width: 100%; /* Make elements full width on smaller screens */
+    }
+
+    #upper-div {
+        display: none;
+    }
 }

@@ -12,7 +12,7 @@ export default function footer() {
         <img src={logo} className="logo-footer" alt={logo} />
       </center>
       <p className="slogan">
-        Living, learning, & leveling up one day at a time.
+        Learning, Living, & Leveling up one day at a time.
       </p>
       <div className="icons">
         <a
