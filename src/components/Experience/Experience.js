@@ -1,6 +1,5 @@
 import React from "react";
 import "./Experience.css";
-import img from "../../Assets/Project1.png";
 import experience_icon from "../../Assets/experience-icon2.png";
 import education_icon from "../../Assets/education-icon1.png";
 

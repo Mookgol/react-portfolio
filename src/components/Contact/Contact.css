@@ -1,9 +1,20 @@
+.getInTouch{
+    font-style: italic;
+    font-weight: bold;
+    color: #b34237;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px rgb(82, 40, 2);
+
+}
+
+
+#contact{
+    display: flex;
+    justify-content: center;
+}
+
 .Contactform {
     margin-top: 80px;
-    margin-left: 33%;
-    margin-right: 30%;
-    padding: 30px;
-    margin-bottom: 50px;
     outline: none;
     border: 2px solid #264143;
     box-shadow: 3px 4px 0px 1px #E99F4C;
@@ -12,9 +23,9 @@
     border-radius: 16px;
     font-size: 15px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     background-color: #EDDCD9;
 }
 
@@ -22,6 +33,14 @@
 form {
     max-width: 400px;
     margin: 0 auto;
+}
+
+.contact-image{
+    width: 500px;
+    /*margin-top: 160px;*/
+    padding: 20px;
+
+
 }
 
 label {
@@ -85,44 +104,8 @@ input[type="submit"]:focus {
     background-size: cover; /* This will cover the entire div */
     background-position: center; /* Center the background image */
     width: 100%; /* Adjust this width as per your requirement */
-    height: 800px; /* Adjust this height as per your requirement */
+    /*height: 800px; !* Adjust this height as per your requirement *!*/
     padding-top: 40px;
 }
 
 
-
-.logo {
- width: 100px;
-}
-
-.slogan{
-    font-size: medium;
-    color: #070102;
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
-
-}
-
-.Copyright{
-    font-size: small;
-    color: #070102;
-    text-align: center;
-    font-style: italic;
-    margin-top: 80px;
-}
-
-.linkedin-icon {
-    margin-right: 1rem;
-    margin-left: 640px;
-}
-
-.behance-icon {
-    margin-right: 1rem;
-
-}
-
-.github-icon {
-    margin-right: 1rem;
-
-}

@@ -1,0 +1,39 @@
+.footer{
+    background-color: #ECB992;
+    padding: 10px;
+}
+.logo-footer {
+    width: 100px;
+}
+
+.slogan{
+    font-size: medium;
+    color: #070102;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.Copyright{
+    font-size: small;
+    color: #070102;
+    text-align: center;
+    font-style: italic;
+    /*margin-top: 80px;*/
+}
+
+.linkedin-icon {
+    margin-right: 1rem;
+    margin-left: 640px;
+}
+
+.behance-icon {
+    margin-right: 1rem;
+
+}
+
+.github-icon {
+    margin-right: 1rem;
+
+}
