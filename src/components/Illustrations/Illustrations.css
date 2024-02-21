@@ -66,3 +66,31 @@
     text-align: center;
     color: #b34237;
 }
+/* Media queries for responsive design */
+
+@media screen and (max-width: 768px) {
+    #illustrations {
+        padding-top: 100px; /* Adjust padding for smaller screens */
+    }
+    .button {
+        font-size: 6pt;
+    }
+    .childrenIllustration {
+        font-size: 8pt; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #illustrations {
+        margin-top: 20px; /* Adjust margin for smaller screens */
+        padding-top: 80px; /* Further adjust padding for smaller screens */
+    }
+    .button {
+        font-size: 6pt;
+    }
+
+
+    .childrenIllustration {
+        font-size: 8pt; /* Further adjust font size for smaller screens */
+    }
+}

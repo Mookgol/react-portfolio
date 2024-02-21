@@ -1,17 +1,19 @@
-.getInTouch{
+.getInTouch {
     font-style: italic;
     font-weight: bold;
     color: #b34237;
     font-size: 60px;
     text-shadow: 2px 2px 4px rgb(82, 40, 2);
-
 }
 
-
-
-#contact{
+#contact {
     display: flex;
     justify-content: center;
+    background-image: url("../../Assets/footer-illustration-banner-opac.png");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 40px;
 }
 
 .Contactform {
@@ -31,30 +33,28 @@
     font-family: Jaldi, sans-serif;
 }
 
-/* form style */
+/* Form style */
 form {
     max-width: 400px;
     margin: 0 auto;
 }
 
-.contact-image{
-    width: 500px;
-    /*margin-top: 160px;*/
+.contact-image {
+    width: 100%; /* Adjust image width to fill container */
+    max-width: 500px; /* Limit image width */
     padding: 20px;
-
-
 }
 
 label {
     display: block;
     margin-bottom: 5px;
-
 }
 
 input[type="email"],
 input[type="text"],
 textarea {
-    width: 360px;
+    width: 100%; /* Adjust input width to fill container */
+    max-width: 360px; /* Limit input width */
     height: 70px;
     padding: 8px;
     margin-bottom: 10px;
@@ -62,13 +62,12 @@ textarea {
     border-radius: 20px;
     box-shadow: 3px 4px 1px 1px #E99F4C;
     color: #b34237;
-
 }
 
-
 input[type="message"],
-textarea  {
-    width: 360px;
+textarea {
+    width: 100%; /* Adjust input width to fill container */
+    max-width: 360px; /* Limit input width */
     height: 120px;
     padding: 8px;
     margin-bottom: 10px;
@@ -76,7 +75,6 @@ textarea  {
     border-radius: 20px;
     box-shadow: 3px 4px 1px 1px #E99F4C;
     color: #b34237;
-
 }
 
 input[type="submit"] {
@@ -90,28 +88,42 @@ input[type="submit"] {
     box-shadow: 3px 4px 2px 1px #E99F4C;
     margin-top: 10px;
     margin-bottom: 12px;
-
-
-
 }
 
 input[type="submit"]:hover {
-    background-color:#d36f15;
+    background-color: #d36f15;
 }
 
 input[type="submit"]:focus {
     outline: none;
 }
 
+/* Media queries for responsive design */
 
-
-#contact {
-    background-image: url("../../Assets/footer-illustration-banner-opac.png");
-    background-size: cover; /* This will cover the entire div */
-    background-position: center; /* Center the background image */
-    width: 100%; /* Adjust this width as per your requirement */
-    /*height: 800px; !* Adjust this height as per your requirement *!*/
-    padding-top: 40px;
+@media screen and (max-width: 768px) {
+    .Contactform {
+        width: 50%; /* Adjust form width for smaller screens */
+        max-width: 450px; /* Limit form width */
+    }
+    .getInTouch{
+        font-size: 30pt;
+    }
+    .contact-image {
+        width: 50%; /* Adjust image width for smaller screens */
+        max-width: 400px; /* Limit image width */
+    }
 }
 
+@media screen and (max-width: 480px) {
+    .Contactform {
+        width: 50%; /* Further adjust form width for smaller screens */
+    }
 
+    .contact-image {
+        width: 50%; /* Further adjust image width for smaller screens */
+    }
+
+    .getInTouch {
+        font-size: 40px; /* Adjust font size for smaller screens */
+    }
+}

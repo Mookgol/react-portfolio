@@ -3,24 +3,23 @@
     text-align: center;
     height: calc(100vh);
     padding-top: 150px;
-
 }
-.h1_description, .h4_description{
+
+.h1_description, .h4_description {
     text-align: center;
     color: #b34237;
 }
 
-.ProjectsCode{
+.ProjectsCode {
     color: #4b010b;
     font-weight: bold;
     font-size: xx-large;
 }
 
-
 .button {
     display: inline-block;
     padding: 8px 40px;
-    border: 2px solid #333; /* Button-like border */
+    border: 2px solid #333;
     border-radius: 4px;
     text-decoration: none;
     color: #F2BE8E;
@@ -31,4 +30,33 @@
 .button:hover {
     background-color: #F2BE8E;
     color: #fff;
+}
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 768px) {
+    #projects {
+        padding-top: 100px; /* Adjust padding for smaller screens */
+    }
+    .button {
+        font-size: 6pt;
+    }
+    .ProjectsCode {
+        font-size: 8pt; /* Adjust font size for smaller screens */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #projects {
+        margin-top: 20px; /* Adjust margin for smaller screens */
+        padding-top: 80px; /* Further adjust padding for smaller screens */
+    }
+    .button {
+        font-size: 6pt;
+    }
+
+
+    .ProjectsCode {
+        font-size: 8pt; /* Further adjust font size for smaller screens */
+    }
 }

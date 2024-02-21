@@ -1,41 +1,61 @@
-.footer{
+.footer {
     background-color: #fadfcc;
     padding: 10px;
 }
+
 .logo-footer {
     width: 120px;
+    margin: 0 auto; /* Center the logo horizontally */
 }
 
-.slogan{
+.slogan {
     font-size: small;
     color: #b34237;
     text-align: center;
     font-weight: bold;
     font-style: italic;
     font-family: Jaldi, sans-serif;
-
 }
 
-.Copyright{
+.Copyright {
     font-size: small;
     color: #090909;
     text-align: center;
     font-style: italic;
-    /*margin-top: 80px;*/
     font-family: Jaldi, sans-serif;
 }
 
-.linkedin-icon {
-    margin-right: 1rem;
-    margin-left: 640px;
-}
-
-.behance-icon {
-    margin-right: 1rem;
-
-}
-
+/* Social media icons */
+.linkedin-icon,
+.behance-icon,
 .github-icon {
-    margin-right: 1rem;
+    display: block; /* Ensure icons are stacked vertically on small screens */
+    margin: 0 auto; /* Center icons horizontally */
+    margin-top: 10px; /* Add some space between icons and copyright */
+}
 
+.linkedin-icon {
+    margin-right: 0; /* Remove right margin to align the first icon properly */
+}
+
+/* Media queries for responsive design */
+
+@media screen and (max-width: 768px) {
+    .linkedin-icon,
+    .behance-icon,
+    .github-icon {
+        margin-left: auto; /* Center icons for smaller screens */
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .slogan,
+    .Copyright {
+        font-size: smaller; /* Decrease font size for smaller screens */
+    }
+
+    .logo-footer {
+        width: 80px; /* Adjust logo width for smaller screens */
+    }
 }
