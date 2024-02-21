@@ -8,6 +8,7 @@
 }
 
 
+
 #contact{
     display: flex;
     justify-content: center;
@@ -53,7 +54,7 @@ label {
 input[type="email"],
 input[type="text"],
 textarea {
-    width: 320px;
+    width: 360px;
     height: 70px;
     padding: 8px;
     margin-bottom: 10px;
@@ -88,6 +89,7 @@ input[type="submit"] {
     font-weight: bold;
     box-shadow: 3px 4px 2px 1px #E99F4C;
     margin-top: 10px;
+    margin-bottom: 12px;
 
 
 

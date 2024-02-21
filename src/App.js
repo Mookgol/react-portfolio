@@ -9,6 +9,7 @@ import Home from "./components/Home/Home";
 import UpArrow from "./components/UpArrow/UpArrow";
 import Footer from "./components/Footer/Footer.js";
 import ReCAPTCHA from "react-google-recaptcha";
+import Illustrations from "./components/Illustrations/Illustrations";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Experience />
         <Projects />
+        <Illustrations />
         <Contact />
         <UpArrow />
         <Footer />

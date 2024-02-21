@@ -56,7 +56,7 @@ function Contact() {
           <label>Message</label>
           <textarea name="message" required />
           <center>
-            <input type="submit" value="Send" />
+            <input className="capture" type="submit" value="Send" />
             <ReCAPTCHA
               sitekey={process.env.REACT_APP_SITE_KEY}
               onChange={handleCaptchaChange}

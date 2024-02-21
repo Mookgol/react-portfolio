@@ -46,6 +46,15 @@ function Navbar() {
         </li>
         <li className="nav-item">
           <Link
+            to="/illustrations"
+            className="nav-link"
+            onClick={() => scrollToSection("illustrations")}
+          >
+            Designs
+          </Link>
+        </li>
+        <li className="nav-item">
+          <Link
             to="/contact"
             className="nav-link"
             onClick={() => scrollToSection("contact")}
