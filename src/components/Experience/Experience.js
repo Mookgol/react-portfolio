@@ -53,29 +53,27 @@ function Experience() {
           </ul>
         </div>
         <div className="tile">
-          <div className="tile">
-            <p className="juniorsoftwareheader">Digital illustration</p>
+          <p className="juniorsoftwareheader">Digital illustration</p>
 
-            <p>I value clean illustration with simple colours.</p>
+          <p>I value clean illustration with simple colours.</p>
 
-            <p className="language">Things I enjoy Illustrating:</p>
+          <p className="language">Things I enjoy Illustrating:</p>
 
-            <p className="books">
-              children’s books, book covers and Animated character’s
-            </p>
+          <p className="books">
+            children’s books, book covers and Animated character’s
+          </p>
 
-            <p className="devtools">Design Tools:</p>
-            <ul className="designtools">
-              <li>Indesign</li>
-              <li>Photoshop</li>
-              <li>Figma</li>
-              <li>Illustrator</li>
-              <li>Photoshop</li>
-              <li>Procreate</li>
-              <li>Pen & paper</li>
-              <li>Sketch</li>
-            </ul>
-          </div>
+          <p className="devtools">Design Tools:</p>
+          <ul className="designtools">
+            <li>Indesign</li>
+            <li>Photoshop</li>
+            <li>Figma</li>
+            <li>Illustrator</li>
+            <li>Photoshop</li>
+            <li>Procreate</li>
+            <li>Pen & paper</li>
+            <li>Sketch</li>
+          </ul>
         </div>
       </div>
     </div>

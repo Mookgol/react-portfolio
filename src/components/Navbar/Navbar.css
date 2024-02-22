@@ -9,15 +9,16 @@
     top: 0;
     width: 100%;
     z-index: 999; /* Add this line */
+    background-color: #fdf3ea;
+    padding-top: 15px;
+    padding-bottom: 0;
 }
-
 
 
 .navbar-left {
     display: flex;
     align-items: center;
 }
-
 
 .navbar-nav {
     list-style: none;
@@ -36,12 +37,13 @@
     text-decoration: none;
     font-size: 18px;
     font-family: Jaldi, sans-serif;
-    border: 4px solid #F2BE8E;
+    border: 6px solid #F2BE8E;
     border-radius: 4px;
     background-color: #F2BE8E;
+    box-shadow: 7px 5px 5px #e07c24;
 }
 
-.logo-footer {
+.logo {
     width: 60px;
 }
 
@@ -66,7 +68,7 @@
     .navbar-toggle-label {
         display: block;
         cursor: pointer;
-        margin-left: auto;
+        /*margin-left: auto;*/
     }
 
     .navbar-toggle {

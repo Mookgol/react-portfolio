@@ -13,7 +13,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="navbar-left">
-        <img src={logo} alt="Logo" className="logo-footer " />
+        <img src={logo} alt="Logo" className="logo" />
       </div>
       <label htmlFor="navbar-toggle" className="navbar-toggle-label"></label>
       <ul className="navbar-nav">

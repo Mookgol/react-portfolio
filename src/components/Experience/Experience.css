@@ -60,10 +60,10 @@
 }
 .right-column {
    max-width: 510px;
-   margin-left: 48%;
+   margin-left: 50%;
    display: grid;
    grid-template-columns: repeat(2, 1fr);
-   gap: 25px;
+   gap: 7px;
 }
 
 .tile {
@@ -73,7 +73,7 @@
    width: 290px;
    height: 314px;
    border: solid #ec913f;
-   box-shadow: 7px 5px 5px #d36f15;
+   box-shadow: 7px 5px 5px #fcdcbf;
 
 }
 
@@ -119,6 +119,22 @@ ul.designtools li{
 
    .column {
       width: 100%;
+   }
+   .tile {
+      background-color: #FBE7D4;
+      position: relative;
+      border-radius: 20px;
+      width: 100%;
+      height: 100%;
+      border: solid #ec913f;
+      box-shadow: 7px 5px 5px #fcdcbf;
+   }
+   .right-column {
+      max-width: 100% !important;;
+       margin-left: 0 !important;;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr) !important;
+      gap: 18px;
    }
 }
 

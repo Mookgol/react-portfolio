@@ -33,19 +33,20 @@ function Contact() {
         },
         (error) => {
           console.log("FAILED...", error.text);
+          alert("Message Not Sent!");
         },
       );
   };
   return (
     <div id="contact">
-      <div>
+      <div className="intouch">
         <h2 className="getInTouch"> Get in Touch</h2>
         <img src={contactImage} className="contact-image" alt={contactImage} />
       </div>
       <div className="Contactform">
         <form ref={form} onSubmit={sendEmail}>
           <label>Full Name</label>
-          <input type="text" name="to_name" required />
+          <input type="text" name="to_name" placeholder="john doe" required />
           <label>Email</label>
           <input
             type="email"
@@ -57,10 +58,12 @@ function Contact() {
           <textarea name="message" required />
           <center>
             <input className="capture" type="submit" value="Send" />
-            <ReCAPTCHA
-              sitekey={process.env.REACT_APP_SITE_KEY}
-              onChange={handleCaptchaChange}
-            />{" "}
+            <div className="recapture">
+              <ReCAPTCHA
+                sitekey={process.env.REACT_APP_SITE_KEY}
+                onChange={handleCaptchaChange}
+              />{" "}
+            </div>
           </center>
         </form>
       </div>

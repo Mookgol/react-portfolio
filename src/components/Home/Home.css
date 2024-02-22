@@ -13,6 +13,7 @@ body {
 
 #profile {
     padding: 50px;
+
 }
 
 
@@ -91,10 +92,24 @@ body {
     }
     .section__text {
         margin-right: 0;
-        margin-bottom: 20px;
+        /*margin-bottom: 20px;*/
     }
     .image__container {
-        margin-top: 20px;
+        /*margin-top: 20px;*/
+    }
+    .btn{
+        padding: 10px 20px;
+        margin: 10px;
+        border: none;
+        border-radius: 1rem;
+        cursor: pointer;
+        font-size: 16px;
+        width: 7rem;
+        height: 4rem;
+
+    }
+    .introtext {
+        font-size: 1.3rem;
     }
 }
 /* For screens between 768px and 1024px width */
@@ -102,5 +117,5 @@ body {
     .hero-image {
         max-height: 400px;
     }
-}
 
+}

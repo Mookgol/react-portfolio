@@ -16,7 +16,6 @@
     align-items: center;
     align-content: center;
     padding-left: 240px;
-
 }
 
 .mookgo {
@@ -26,60 +25,85 @@
 
 .about-text{
     color: #e36f07;
-    width: 900px;
-
+    width: 1000px;
 }
-
 #about-paragraph{
     color: #070001;
     font-family: Jaldi, sans-serif;
     font-weight: normal;
-
 }
-
 #about-inner-section {
     transform: translateY(-300px);
-
 }
-
 #about {
     display: flex;
     flex-direction: column;
     height: 100vh;
     width: 100%;
-
 }
-
 #about-paragraph {
     width: 700px;
-
 }
-
 .desktop {
     width: 780px;
     height: 300px;
     align-content: center;
     align-items: center;
     margin-left:344px;
-
-
+    /*border: #6b010c 4px solid;*/
 }
+ /*For screens up to 768px width*/
+@media screen and (max-width: 768px) {
+   .desktop{
+      width: 100%;
+       height: 100%;
+       margin:0;
+       /*margin-top: 10rem;*/
+   }
+    .text-cont{
+        /*border: 2px red solid;*/
+        text-align: center;
+        align-content: center;
+        padding-left: 0;
+        margin: 0;
+    }
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+    }
+    .mookgo{
+        width: 200px;
+        margin: 10px;
 
+    }
+    .image-section{
+        margin-top: 0;
+        align-items: center;
+        align-content: center;
+        padding-left: 0;
+        font-size: small;
+        padding-right: 3%;
 
-
-/* For screens up to 768px width */
-@media only screen and (max-width: 768px) {
+    }
+    #upper-div{
+        height: 25%;
+    }
     #about-inner-section {
-        padding-right: 10px;
-        padding-left: 10px;
-        transform: none; /* Reset transformation */
+        transform: translateY(0);
     }
-
-    .desktop, #about-paragraph {
-        width: 100%; /* Make elements full width on smaller screens */
+    #about {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
     }
-
-    #upper-div {
-        display: none;
+    #about-paragraph {
+        width: 100%;
+    }
+    .about-text{
+        color: #e36f07;
+        width: 100%;
     }
 }

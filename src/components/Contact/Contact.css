@@ -73,7 +73,6 @@ textarea {
     margin-bottom: 10px;
     border: #fde2c9;
     border-radius: 20px;
-    box-shadow: 3px 4px 1px 1px #E99F4C;
     color: #b34237;
 }
 
@@ -112,11 +111,26 @@ input[type="submit"]:focus {
         width: 50%; /* Adjust image width for smaller screens */
         max-width: 400px; /* Limit image width */
     }
+    .intouch{
+        /*width: 25%;*/
+        display: none;
+    }
+    input[type="email"], input[type="text"], textarea  {
+        width: 100%;
+        max-width: 180px !important;
+    }
+    .recapture{
+        transform: scale(0.6); /* Adjust the scale value as needed */
+        transform-origin: 0 0; /* Optional: Change the origin of the transformation */
+    }
+    .Contactform {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 480px) {
     .Contactform {
-        width: 50%; /* Further adjust form width for smaller screens */
+        width: 80%; /* Further adjust form width for smaller screens */
     }
 
     .contact-image {

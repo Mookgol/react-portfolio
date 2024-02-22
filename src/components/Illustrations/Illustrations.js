@@ -41,7 +41,7 @@ const Illustrations = () => {
             <img src={image.url} alt={image.alt} />
             <div className="image-description">
               <p className="childrenIllustration">{image.description}</p>
-              <a href={image.githubLink} target="_blank" className="button">
+              <a href={image.web_url} target="_blank" className="button">
                 {image.title}
               </a>
             </div>

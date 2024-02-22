@@ -12,7 +12,7 @@ function About() {
         </div>
         <div className="image-section">
           <img src={mookgo} alt="mookgo" className="mookgo" />
-          <div>
+          <div className="text-cont">
             <h4 className="about-text">
               I am a dedicated Junior Software Developer and Digital illustrator{" "}
               <br />

@@ -26,16 +26,11 @@
 }
 
 /* Social media icons */
-.linkedin-icon,
-.behance-icon,
-.github-icon {
-    display: block; /* Ensure icons are stacked vertically on small screens */
-    margin: 0 auto; /* Center icons horizontally */
-    margin-top: 10px; /* Add some space between icons and copyright */
-}
 
-.linkedin-icon {
-    margin-right: 0; /* Remove right margin to align the first icon properly */
+
+.icons {
+    display: flex;
+    justify-content: center;
 }
 
 /* Media queries for responsive design */
