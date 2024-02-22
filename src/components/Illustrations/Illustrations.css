@@ -65,8 +65,11 @@
 .h1_description, .h4_description{
     text-align: center;
     color: #b34237;
+}
 
-
+.longer_descriptions{
+    font-weight: normal;
+    color: #340108;
 }
 /* Media queries for responsive design */
 

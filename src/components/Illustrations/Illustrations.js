@@ -9,6 +9,8 @@ const images = [
     url: night_time,
     alt: "night time",
     description: "Children's Illustrations",
+    longer_description:
+      "Captivating children's illustrations from my stories with vibrant colors, whimsical characters, and enchanting landscapes.",
     web_url: "https://www.behance.net/mookgolebaka",
     title: "See more on Behance",
   },
@@ -16,6 +18,8 @@ const images = [
     url: headboys,
     alt: "headboys",
     description: "Portraits",
+    longer_description:
+      "Crafting digital illustrations of People with meticulous attention to detail, each stroke capturing the essence of emotion, personality, and narrative.",
     web_url: "https://www.behance.net/mookgolebaka",
     title: "See more on Behance",
   },
@@ -23,6 +27,8 @@ const images = [
     url: illustrations,
     alt: "illustrations",
     description: "Illustrations",
+    longer_description:
+      "illustrations from my daily illustrations with vibrant colors, whimsical characters, and enchanting landscapes.",
     title: "See more on Behance",
     web_url: "https://www.behance.net/mookgolebaka",
   },
@@ -41,6 +47,9 @@ const Illustrations = () => {
             <img src={image.url} alt={image.alt} />
             <div className="image-description">
               <p className="childrenIllustration">{image.description}</p>
+              <h4 className="longer_descriptions">
+                {image.longer_description}
+              </h4>
               <a href={image.web_url} target="_blank" className="button">
                 {image.title}
               </a>
