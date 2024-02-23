@@ -18,7 +18,7 @@ const images = [
   {
     url: Game,
     githubLink: "https://github.com/Mookgol/Game",
-    liveDemoLink: "https://github.com/Mookgol/Game",
+    liveDemoLink: "https://tetris-game-mookgo.netlify.app/game.html",
     alt: "Game",
     description: "Game",
     title: "Github",

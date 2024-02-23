@@ -87,8 +87,8 @@
 
 @media screen and (max-width: 480px) {
     #illustrations {
-        margin-top: 20px; /* Adjust margin for smaller screens */
-        padding-top: 80px; /* Further adjust padding for smaller screens */
+        margin-top: 8px; /* Adjust margin for smaller screens */
+        padding-top: 50px; /* Further adjust padding for smaller screens */
     }
     .button {
         font-size: 6pt;
@@ -98,4 +98,14 @@
     .childrenIllustration {
         font-size: 8pt; /* Further adjust font size for smaller screens */
     }
+
+    .image-grid {
+        display: flex;
+        flex-direction: column;
+        margin: 1.5rem 5rem;
+
+    }
+   .image-description{
+       font-size: small;
+   }
 }
