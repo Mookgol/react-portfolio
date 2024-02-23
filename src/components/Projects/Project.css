@@ -59,4 +59,13 @@
     .ProjectsCode {
         font-size: 8pt; /* Further adjust font size for smaller screens */
     }
+
+    .image-description {
+        font-size: xx-small;
+
+    }
+
+    .longer_descriptions {
+        font-size: xx-small;
+    }
 }

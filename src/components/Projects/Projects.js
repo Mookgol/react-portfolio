@@ -11,6 +11,8 @@ const images = [
     liveDemoLink: "https://keen-tapioca-29c1f9.netlify.app",
     alt: "Kuyasa",
     description: "Kuyasa Health Services",
+    longer_description:
+      "Health service website, meticulously engineered designed to provide seamless access to essential medical resources, personalized care solutions, and a user-centric experience focused on improving health outcomes for all.",
     title: "Github",
     title_2: "Live",
   },
@@ -21,6 +23,8 @@ const images = [
     liveDemoLink: "https://tetris-game-mookgo.netlify.app/game.html",
     alt: "Game",
     description: "Game",
+    longer_description:
+      "Dive into the addictive world of a custom-developed colourful Tetris game, meticulously crafted for enthusiasts and casual players alike. ",
     title: "Github",
     title_2: "Live",
   },
@@ -32,6 +36,8 @@ const images = [
     liveDemoLink: "https://mookgo-lebaka.netlify.app/",
     alt: "Portfolio",
     description: "Portfolio",
+    longer_description:
+      "My Portfolio website, a showcase of my passion for coding and creativity. Explore my projects, delve into my skills, and witness the evolution of my coding journey captured in pixels.",
     title: "Github",
     title_2: "Live",
   },
@@ -50,6 +56,9 @@ function Projects() {
             <img src={image.url} alt={image.alt} />
             <div className="image-description">
               <p className="ProjectsCode">{image.description}</p>
+              <h4 className="longer_descriptions">
+                {image.longer_description}
+              </h4>
               <a href={image.githubLink} target="_blank" className="button">
                 {image.title}
               </a>
