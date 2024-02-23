@@ -103,9 +103,12 @@ input[type="submit"]:focus {
     .Contactform {
         width: 50%; /* Adjust form width for smaller screens */
         max-width: 450px; /* Limit form width */
+        justify-content: center;
+        align-items: center;
     }
     .getInTouch{
         font-size: 30pt;
+
     }
     .contact-image {
         width: 50%; /* Adjust image width for smaller screens */
@@ -118,10 +121,15 @@ input[type="submit"]:focus {
     input[type="email"], input[type="text"], textarea  {
         width: 100%;
         max-width: 180px !important;
+        justify-content: center;
+        align-items: center;
     }
     .recapture{
         transform: scale(0.6); /* Adjust the scale value as needed */
         transform-origin: 0 0; /* Optional: Change the origin of the transformation */
+        justify-content: center;
+        align-items: center;
+        display: flex;
     }
     .Contactform {
         width: 100%;
@@ -130,7 +138,8 @@ input[type="submit"]:focus {
 
 @media screen and (max-width: 480px) {
     .Contactform {
-        width: 80%; /* Further adjust form width for smaller screens */
+        width: 90%; /* Further adjust form width for smaller screens */
+
     }
 
     .contact-image {
@@ -139,5 +148,6 @@ input[type="submit"]:focus {
 
     .getInTouch {
         font-size: 40px; /* Adjust font size for smaller screens */
+
     }
 }
