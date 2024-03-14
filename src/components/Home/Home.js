@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.css";
 import hero1 from "../../Assets/hero1.png";
-import resumePdf from "../../Assets/resume-example.pdf";
+import resumePdf from "../../Assets/resume.pdf";
 import linkedinIcon from "../../Assets/linkedin-icon.png";
 import behanceIcon from "../../Assets/behance-icon.png";
 import githubIcon from "../../Assets/github-icon.png";
