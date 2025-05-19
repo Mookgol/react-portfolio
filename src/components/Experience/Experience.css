@@ -23,7 +23,6 @@
 }
 
 #experience{
-   padding-top: 80px;
    background-image: url("../../Assets/experience-image.png");
    background-size: cover; /* This will cover the entire div */
    background-position: center; /* Center the background image */
