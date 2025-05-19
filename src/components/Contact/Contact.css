@@ -9,7 +9,7 @@
 #contact {
     display: flex;
     justify-content: center;
-    background-image: url("../../Assets/footer-illustration-banner-opac.png");
+    /*background-image: url("../../Assets/footer-illustration-banner-opac.png");*/
     background-size: cover;
     background-position: center;
     width: 100%;

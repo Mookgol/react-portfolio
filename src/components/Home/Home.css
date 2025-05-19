@@ -1,18 +1,36 @@
 
 .section__text__p1 {
-    color: #6b010c;
+    color: #0e0006;
+    font-size: xx-large;
+
 }
 .designtext h4 {
-    color: #6b010c;
+    color: #0e0006;
     font-weight: lighter;
+}
+.linkedin-icon1 {
+    margin: 10px;
+}
+.behance-icon2  {
+    margin: 10px;
+}
+.github-icon3 {
+    margin: 10px;
 }
 
 body {
-    background-color: #fdf3ea;
+    /*display: flex;*/
+    justify-content: center;
+    background-image: url("../../Assets/footer-illustration-banner-opac.png");
+    background-size:contain;
+    background-position: center;
+    width: 100%;
+    padding-top: 40px;
 }
 
 #profile {
     padding: 50px;
+    height: 100vh;
 
 }
 
@@ -28,13 +46,13 @@ body {
     flex: 1;
     text-align: center;
     margin-right: 20px;
-    color: #850110;
+    color: #0e0006;
 }
 
 .title {
-   color: #f3b881;
-    font-size: xx-large;
-    text-shadow: 2px 2px 4px rgb(70, 1, 17);
+   color: #d95b76;
+    font-size: xxx-large;
+    text-shadow: 2px 2px 4px rgb(14, 0, 6);
 }
 
 .image__container {
@@ -45,7 +63,7 @@ body {
 
 .hero-image {
     max-width: 100%;
-    max-height: 600px;
+    max-height: 620px;
     border-radius: 10px;
 }
 
@@ -61,16 +79,16 @@ body {
     border: none;
     border-radius: 3rem;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 20px;
     width: 11rem;
     height: 3rem;
 }
 
 .btn-color-1,
 .btn-color-2 {
-    background-color: #f3b881;
-    color: #4b010b;
-    box-shadow: 7px 5px 5px #e07c24;
+    background-color: #d95b76;
+    color: #0e0006;
+    box-shadow: 7px 5px 5px #f69daf;
     font-weight: bold;
 }
 

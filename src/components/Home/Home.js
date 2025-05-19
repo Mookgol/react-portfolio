@@ -22,7 +22,7 @@ function Home() {
           <h1 className="section__text__p1">Hello, I am</h1>
           <h1 className="title">Mookgo Lebaka</h1>
           <h1 className="introtext">
-            A passionate Junior Software Developer and Digital Illustrator
+            A passionate Frontend Developer and Graphic Designer
             <br />
             based in Cape Town, South Africa.
           </h1>

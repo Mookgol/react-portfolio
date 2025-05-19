@@ -16,8 +16,8 @@ function Experience() {
             />
           </center>
           <p className="experienceHeader">Experience</p>
-          <p>6 months Software Development training</p>
-          <p>6 years Inkjet specialist and Digital Illustrator</p>
+          <p>Over 2 years as Software Developer </p>
+          <p>Over 8 years as Graphic Designer</p>
         </div>
         <div className="tile">
           <center>
@@ -28,11 +28,19 @@ function Experience() {
             />
           </center>
           <p className="EducationHeader">Education</p>
-          <p>6 months Software Development training</p>
-          <p> Diploma in Art and Design Majored in Graphic Design</p>
+          <p>
+            {" "}
+            Fullstack Development Certificate at CapaCiTi Tech Career
+            Accelerator{" "}
+          </p>
+          <p>
+            {" "}
+            Diploma in Art and Design Majored in Graphic Design at Collage of
+            Cape Town
+          </p>
         </div>
         <div className="tile">
-          <p className="juniorsoftwareheader">Junior Software Developer</p>
+          <p className="juniorsoftwareheader">Software Developer</p>
 
           <p>
             I like clean simple code and enjoy bringing ideas to life in the
@@ -41,7 +49,7 @@ function Experience() {
 
           <p className="language">Languages:</p>
 
-          <p>HTML, CSS, JavaScript and Git</p>
+          <p> React, JavaScript, CSS, HTML and Git</p>
 
           <p className="devtools">Dev Tools:</p>
           <ul>
@@ -60,7 +68,7 @@ function Experience() {
           <p className="language">Things I enjoy Illustrating:</p>
 
           <p className="books">
-            children’s books, book covers and Animated character’s
+            Children’s books, book covers and Animated character’s
           </p>
 
           <p className="devtools">Design Tools:</p>
@@ -69,7 +77,7 @@ function Experience() {
             <li>Photoshop</li>
             <li>Figma</li>
             <li>Illustrator</li>
-            <li>Photoshop</li>
+            <li>Canva</li>
             <li>Procreate</li>
             <li>Pen & paper</li>
             <li>Sketch</li>

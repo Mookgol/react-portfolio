@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@300');
 
 .navbar {
+    background-color: transparent;
     padding: 5px 20px;
     display: flex;
     justify-content: space-between;
@@ -8,11 +9,14 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 999; /* Add this line */
-    background-color: #fdf3ea;
+    z-index: 999;
+    /*background-color: rgba(255, 255, 255, 0.6); !* transparency added *!*/
+    backdrop-filter: blur(10px); /* optional: frosted glass effect */
+    -webkit-backdrop-filter: blur(10px); /* Safari support */
     padding-top: 15px;
     padding-bottom: 0;
 }
+
 
 
 .navbar-left {
@@ -33,14 +37,17 @@
 }
 
 .nav-link {
-    color: #7B2933;
+    color: #2e080d;
     text-decoration: none;
     font-size: 18px;
     font-family: Jaldi, sans-serif;
-    border: 6px solid #F2BE8E;
-    border-radius: 4px;
-    background-color: #F2BE8E;
-    box-shadow: 7px 5px 5px #e07c24;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+    /* border: 6px solid #f6d5b7;
+     border-radius: 4px;
+     background-color: #f6d5b7;
+     box-shadow: 7px 5px 5px #df883b;*/
 }
 
 .logo {
@@ -74,6 +81,10 @@
     .nav-item {
         margin: 10px 0;
     }
+    .nav-link:hover {
+        background-color: #f3b881;
+    }
+
 }
 
 

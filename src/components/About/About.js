@@ -14,17 +14,16 @@ function About() {
           <img src={mookgo} alt="mookgo" className="mookgo" />
           <div className="text-cont">
             <h4 className="about-text">
-              I am a dedicated Junior Software Developer and Digital illustrator{" "}
-              <br />
+              I am a dedicated Front-end Developer and Graphic Designer <br />
               based in Cape Town, South Africa. 📍
             </h4>
             <p id="about-paragraph">
-              As a Junior Software Developer and Digital illustrator, I possess
-              an impressive arsenal of skills in React, JavaScript, Css and Html
-              <br />I excel in designing and maintaining responsive websites
-              that offer a smooth user experience. <br />I am also a team player
-              who thrives in collaborating with cross-functional teams to
-              produce outstanding web applications.
+              As a Front-end Developer and Graphic Designer, I possess an
+              impressive arsenal of skills in React, JavaScript, Css and Html.I
+              excel in designing and maintaining responsive websites that offer
+              a smooth user experience.I am also a team player who thrives in
+              collaborating with cross-functional teams to produce outstanding
+              web applications.
             </p>
           </div>
         </div>

@@ -1,12 +1,13 @@
 #upper-div{
     flex: 1;
-    background-color: #fdf3ea;
+    background-color: #ffffff;
 }
 
 #lower-div{
     flex: 1;
     background-color: #FBE7D4;
-    height: 50px;
+    height: 100px;
+
 
 }
 

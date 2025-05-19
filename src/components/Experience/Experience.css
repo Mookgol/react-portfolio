@@ -23,12 +23,12 @@
 }
 
 #experience{
-   padding-top: 50px;
+   padding-top: 80px;
    background-image: url("../../Assets/experience-image.png");
    background-size: cover; /* This will cover the entire div */
    background-position: center; /* Center the background image */
    width: 100%; /* Adjust this width as per your requirement */
-   height: 800px; /* Adjust this height as per your requirement */
+   height: 100vh; /* Adjust this height as per your requirement */
 }
 
 
@@ -47,7 +47,7 @@
 
 .column {
    flex: 1;
-   padding: 10px;
+   padding: 40px;
 }
 
 .left-column img {
@@ -71,7 +71,7 @@
    position: relative;
    border-radius: 20px;
    width: 290px;
-   height: 314px;
+   height: 319px;
    border: solid #ec913f;
    box-shadow: 7px 5px 5px #fcdcbf;
 
